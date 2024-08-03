@@ -247,7 +247,7 @@ section.use ul.typo_icon li.icon {
 }
 section.use ul.typo_icon li.icon .icon {
     width: 236px; height: 202px;
-    background-image: url(/img/icon.png); 
+    background-image: url(img/icon.png); 
     background-repeat: no-repeat;
 }
 section.use .lo_go {
@@ -256,7 +256,7 @@ section.use .lo_go {
 }
 section.use .lo_go .logo_img {
     width: 100%; height: 409px;
-    background-image: url(/img/lo_go.png);
+    background-image: url(img/lo_go.png);
 }
 section.use .foruser {
     margin-top: 260px;
@@ -278,7 +278,7 @@ section.pub {
 }
 section.pub .pub_img {
     width: 1386px; height: 745px;
-    background-image: url(/img/pub.png);
+    background-image: url(img/pub.png);
     position: absolute; left: 267px; top: 100px;
 }
 
