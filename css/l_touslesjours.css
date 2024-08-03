@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body {
+    background-image: url(/img/bg.png);
+}
+.link:hover {
+    background-color: #823D1D; color: #fff;
+}
+header {
+    background-color: #F4E7D0;
+}
+header ul.nav li {
+    transition: .4s;
+}
+header ul.nav li:nth-child(1) {
+    color: #823D1D; font-weight: bold;
+}
+header ul.nav li:hover {
+    color: #823D1D;
+}
+
+.logo:after {
+    content: "";
+    background: url("/img/web_logo.png") no-repeat;
+    left: 50%;
+    margin-left: -11%;
+    position: absolute;
+    top: 30%;
+    width: 138px;
+    padding-top: 4.8%;
+}
+
+section.use ul.color {
+    width: 526px; height: 210px;
+}
+section.use ul.color li:nth-child(1)>ul.sub>li {background-color: #365442;}
+section.use ul.color li:nth-child(2)>ul.sub>li {background-color: #B39171;}
+section.use ul.color li:nth-child(3)>ul.sub>li {background-color: #F5EDE5;}
+section.use ul.color li:nth-child(4)>ul.sub>li {background-color: #ED6C24;}
+
+section.use ul.typo_icon li.typo ul.typo li:nth-child(1) {font-family: "Jua", sans-serif;}
+section.use ul.typo_icon li.typo ul.typo li:nth-child(2) {font-family: "Play", sans-serif; }
+section.use ul.typo_icon li.typo ul.typo li:nth-child(3) {font-family: 'InkLipquid';}
+section.use ul.typo_icon li.typo ul.typo li:nth-child(4) {font-family: "Noto Sans KR", sans-serif;}
+section.use ul.typo_icon li.typo ul.typo li:nth-child(5) {font-family: "Nanum Gothic", sans-serif;}
+section.use ul.typo_icon li.typo ul.typo li:nth-child(6) {font-family: 'Uiyeun';}
+section.use ul.typo_icon li.typo ul.typo li:nth-child(7) {font-family: 'SeoulNamsanM';}
