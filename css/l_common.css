@@ -202,7 +202,9 @@ section h3 {
 section.use ul.color {
     display: flex; align-items: center; justify-content: space-evenly;
 }
-section.use ul.color li {}
+section.use ul.color li {
+    width: 99px;
+}
 section.use ul.color li ul.sub {
     display: flex; flex-direction: column; align-items: center; justify-content: space-between;
 }
